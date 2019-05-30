@@ -1,0 +1,20 @@
+{
+    "name": "excellence/module-test",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [{
+        "name": "Manish Joy",
+        "email": "manishjoy1993@hotmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Excellence\\Test\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
